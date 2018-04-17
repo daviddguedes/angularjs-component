@@ -1,0 +1,22 @@
+{
+  "name": "angularjs-component",
+  "description": "",
+  "main": "index.html",
+  "authors": [
+    "David Coelho"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-ui-router": "^1.0.15",
+    "angular": "1.5.5",
+    "bootstrap": "4.0.0"
+  }
+}

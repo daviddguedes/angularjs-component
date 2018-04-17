@@ -1,0 +1,19 @@
+<div class="row">
+   <div class="col-md-6 offset-md-3">
+      <form class="form">
+         <legend>{{ $ctrl.testando }}</legend>
+         <div class="form-group">
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="name" class="form-control" ng-model="form.name">
+         </div>
+         <div class="form-group">
+            <label for="email">Email: </label>
+            <input type="text" name="email" id="email" class="form-control" ng-model="form.email">
+         </div>
+      
+         <button ng-click="$ctrl.onSubmit(form)" type="button" class="btn btn-primary">Submit</button>
+      </form>
+      
+      {{ form | json }}
+   </div>
+</div>
